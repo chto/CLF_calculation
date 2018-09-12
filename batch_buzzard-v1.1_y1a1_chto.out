@@ -1,0 +1,3529 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+WARNING:  Default is NOT to use central mag correction
+          use_dr8_cen_corr = 0
+WARNING: Default is to not use lambda errors
+WARNING:  Default nz_descale (0)
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+7775  clusters read in
+0.94965
+Reading members file...
+465841  galaxies read in
+465841  galaxies kcorrected
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  212.674
+/afs/slac.stanford.edu/u/ki/chto100/code/redmapper/pext_correct.py:55: RuntimeWarning: divide by zero encountered in log
+  lnchi2 = np.log(chi2)
+Done setting up bootstrap samples
+Calculating n(z)...
+Done calculating n(z)
+Calculating n(lambda)...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+Done calculating n(lambda)
+Done calculating bonus listing of massive clusters
+[[ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]] [[  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]] [ 0.1  0.2  0.3  0.4  0.5  0.6  0.7  0.8] [ 0.2  0.3  0.4  0.5  0.6  0.7  0.8  0.9]
+Calculating CLF...
+WARNING:  Some clusters have P>1, correcting
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING:  Some clusters have P>1, correcting
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING:  Some clusters have P>1, correcting
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING:  Some clusters have P>1, correcting
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+/afs/slac.stanford.edu/u/ki/chto100/code/redmapper/redm_clf.py:331: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+WARNING:  Some clusters have P>1, correcting
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+Beginning CLF covariance calculations...
+running on bootlist: 0
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 1
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 2
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 3
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 4
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 5
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 6
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 7
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 8
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 9
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 10
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 11
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 12
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 13
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 14
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 15
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 16
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 17
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 18
+Time to complete loop:  0.41 8.8012862758e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 19
+Time to complete loop:  0.43 9.23061731363e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 20
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 21
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 22
+Time to complete loop:  0.42 9.0159517947e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 23
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 24
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 25
+Time to complete loop:  0.43 9.23061731363e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 26
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 27
+Time to complete loop:  0.42 9.0159517947e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 28
+Time to complete loop:  0.43 9.23061731363e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 29
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 30
+Time to complete loop:  0.41 8.8012862758e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 31
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 32
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 33
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 34
+Time to complete loop:  0.410000000001 8.80128627581e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 35
+Time to complete loop:  0.419999999999 9.01595179469e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 36
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 37
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 38
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 39
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 40
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 41
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 42
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 43
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 44
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 45
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 46
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 47
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 48
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 49
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 50
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 51
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 52
+Time to complete loop:  0.450000000001 9.65994835149e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 53
+Time to complete loop:  0.46 9.8746138704e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 54
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 55
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 56
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 57
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 58
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 59
+Time to complete loop:  0.46 9.8746138704e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 60
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 61
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 62
+Time to complete loop:  0.450000000001 9.65994835149e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 63
+Time to complete loop:  0.44 9.44528283255e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 64
+Time to complete loop:  0.45 9.65994835147e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 65
+Time to complete loop:  0.44 9.44528283255e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 66
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 67
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 68
+Time to complete loop:  0.440000000001 9.44528283257e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 69
+Time to complete loop:  0.429999999998 9.2306173136e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 70
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 71
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 72
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 73
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 74
+Time to complete loop:  0.440000000001 9.44528283257e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 75
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 76
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 77
+Time to complete loop:  0.429999999998 9.2306173136e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 78
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 79
+Time to complete loop:  0.429999999998 9.2306173136e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 80
+Time to complete loop:  0.439999999999 9.44528283253e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 81
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 82
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 83
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 84
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 85
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 86
+Time to complete loop:  0.440000000001 9.44528283257e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 87
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 88
+Time to complete loop:  0.41 8.80128627579e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 89
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 90
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 91
+Time to complete loop:  0.440000000001 9.44528283257e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 92
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 93
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 94
+Time to complete loop:  0.43 9.23061731364e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 95
+Time to complete loop:  0.440000000001 9.44528283257e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 96
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 97
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 98
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+running on bootlist: 99
+Time to complete loop:  0.42 9.01595179471e-07
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.1 0.2
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.2 0.3
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.3 0.4
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.4 0.5
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.5 0.6
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.6 0.7
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.7 0.8
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+WARNING: no clusters found for limits of: 
+10.0 20.0 0.8 0.9
+Done calculating CLF
+PCEN:  1.02177500725 7775 38840 271 7774.26689226
+
+------------------------------------------------------------
+Sender: LSF System <lsf@bullet0309>
+Subject: Job 760251: <runCLF> in cluster <slac> Done
+
+Job <runCLF> was submitted from host <ki-ls09> by user <chto100> in cluster <slac>.
+Job was executed on host(s) <bullet0309>, in queue <long>, as user <chto100> in cluster <slac>.
+</u/ki/chto100> was used as the home directory.
+</u/ki/chto100/code/redmapper> was used as the working directory.
+Started at Tue Jan 24 15:38:06 2017
+Results reported on Tue Jan 24 19:11:14 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+###!/bin/bash
+#BSUB -W 120:00
+#BSUB -q long
+#BSUB -J runCLF
+#BSUB -oo batch_buzzard-v1.1_y1a1_chto.out
+python redm_full.py param_buzzard-v1.1-y1a1.dat
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12490.76 sec.
+    Max Memory :                                 22416 MB
+    Average Memory :                             626.20 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Processes :                              5
+    Max Threads :                                21
+    Run time :                                   12787 sec.
+    Turnaround time :                            12796 sec.
+
+The output (if any) is above this job summary.
+

@@ -1,0 +1,8 @@
+###!/bin/bash
+#BSUB -W 48:00
+#BSUB -J runCLF_dr8
+#BSUB -q medium
+#BSUB -u chto100
+#BSUB -oo chtolog/descqa_dr8_v5.10_paper_%J.log
+
+python redm_full.py  /u/ki/chto100/code/redmapper_clf/redmapper/chtoParam/descqa/chto_correct_v7_nocencorr.dat 

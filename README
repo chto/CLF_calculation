@@ -1,0 +1,44 @@
+###########################################################
+Please note that this REAME file is currently incomplete.
+
+While most of this set of redmapper analysis code is
+self-contained within Python, it DOES require access to
+IDL if absolute magnitudes for galaxies are not supplied.
+By default, it will call kcorrect to get these.
+
+USAGE:
+
+General usage is:
+
+python redm_full.py some_parameter_file
+
+redm_full.py is the main call part of the script.  All 
+parameters for running should be specified within the
+parameter file.  There are several parameter files included
+in the repository.
+
+Depending on settings, the code has the capability to 
+calculate n(z), n(lambda), CLFs, and radial profiles.
+
+Magnitude gap measurements are present but incomplete.
+
+Note that this version currently has some issues with
+bootstrap selection and error calculations.  Use with
+caution.
+
+####DESCRIPTION OF INPUT PARAMETER FILES####
+
+use_p_ext:
+	0: No correction to probabilities.
+	1: Use p_ext instead of p, with correction.
+           Only valid for redmapper <=v5.9
+	2: Use p_ext instead of p, with correction.
+	   Exclude galaxies outside of rvir.
+	   Only valid for redmapper <=v5.9
+	3: Use p_ext instead of p, with correction.
+	   Excludes galaxies outside of r_lambda and with p_corr < 0.2.
+	   Only valid for redmapper <=v5.9
+	4: Use p*pfree, with correction.  Only valid for DR8 and
+	   redmapper >=v5.10.  r<r_lambda cut included.
+	5: Use p*pfree, with partial correction.  Valid for S82 (?) 
+	   and requires redmapper >=v5.10.  r<r_lambda cut included.

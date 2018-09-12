@@ -1,0 +1,111 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+WARNING:  Default abs_solar is for SDSS i-band at z=0.3
+WARNING:  Default is NOT to use central mag correction
+          use_dr8_cen_corr = 0
+WARNING: Default is to not use lambda errors
+WARNING:  Default nz_descale (0)
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+406740  clusters read in
+0.599985
+Reading members file...
+23029243  galaxies read in
+23029243  galaxies kcorrected
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  330.686
+/gpfs/slac/kipac/fs1/u/chto100/redmapper_clf/redmapper/pext_correct.py:55: RuntimeWarning: divide by zero encountered in log
+  lnchi2 = np.log(chi2)
+Done setting up bootstrap samples
+[[ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]] [[  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]] [ 0.1   0.15  0.2   0.25  0.3 ] [ 0.15  0.2   0.25  0.3   0.33]
+Calculating CLF...
+WARNING:  Some clusters have P>1, correcting
+/gpfs/slac/kipac/fs1/u/chto100/redmapper_clf/redmapper/pz_utils.py:71: RuntimeWarning: invalid value encountered in greater
+  alist = np.where(lambda_err>0)[0]
+WARNING:  Some clusters have P>1, correcting
+/gpfs/slac/kipac/fs1/u/chto100/redmapper_clf/redmapper/redm_clf.py:329: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+Beginning CLF covariance calculations...
+running on bootlist: 0
+running on bootlist: 1
+running on bootlist: 2
+running on bootlist: 3
+running on bootlist: 4
+running on bootlist: 5
+running on bootlist: 6
+running on bootlist: 7
+running on bootlist: 8
+running on bootlist: 9
+running on bootlist: 10
+running on bootlist: 11
+running on bootlist: 12
+running on bootlist: 13
+running on bootlist: 14
+running on bootlist: 15
+running on bootlist: 16
+running on bootlist: 17
+running on bootlist: 18
+running on bootlist: 19
+running on bootlist: 20
+running on bootlist: 21
+running on bootlist: 22
+running on bootlist: 23
+running on bootlist: 24
+running on bootlist: 25
+running on bootlist: 26
+running on bootlist: 27
+running on bootlist: 28
+running on bootlist: 29
+running on bootlist: 30
+running on bootlist: 31
+running on bootlist: 32
+running on bootlist: 33
+running on bootlist: 34
+running on bootlist: 35
+running on bootlist: 36
+running on bootlist: 37
+running on bootlist: 38
+running on bootlist: 39
+running on bootlist: 40
+running on bootlist: 41
+running on bootlist: 42
+running on bootlist: 43
+running on bootlist: 44
+
+------------------------------------------------------------
+Sender: LSF System <lsf@hequ0102>
+Subject: Job 474762: <runCLF> in cluster <slac> Exited
+
+Job <runCLF> was submitted from host <ki-ls09> by user <chto100> in cluster <slac>.
+Job was executed on host(s) <hequ0102>, in queue <long>, as user <chto100> in cluster <slac>.
+</u/ki/chto100> was used as the home directory.
+</gpfs/slac/kipac/fs1/u/chto100/redmapper_clf/redmapper> was used as the working directory.
+Started at Sat Jan 21 13:36:40 2017
+Results reported on Mon Jan 23 20:48:31 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+###!/bin/bash
+#BSUB -q long
+#BSUB -W 120:00
+#BSUB -J runCLF
+#BSUB -oo batch_redm_full_new_chto.out
+python redm_full.py param_dr8.dat
+
+------------------------------------------------------------
+
+Exited
+The output (if any) is above this job summary.
+

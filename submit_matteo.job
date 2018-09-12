@@ -1,0 +1,8 @@
+###!/bin/bash
+#BSUB -W 8:00
+#BSUB -J CLFmatteo[7]
+#BSUB -q medium
+#BSUB -u chto100
+#BSUB -oo chtolog/param_dr8_v5.10_paper_matteo_%J_%I.log
+echo python redm_full.py /u/ki/chto100/code/desy3workshop/clf/makeclf/batch_matteo_sim/param_$((${LSB_JOBINDEX}-1)).dat
+python redm_full.py /u/ki/chto100/code/desy3workshop/clf/makeclf/batch_matteo_sim/param_$((${LSB_JOBINDEX}-1)).dat

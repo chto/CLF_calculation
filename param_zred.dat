@@ -1,0 +1,65 @@
+#Example parameter file
+#Pound symbol is comment
+
+#Files
+cluster_file	/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/stripe82_redmapper_v5.2/run_cas_v3z/stripe82_cas_run_lzred_redmapper_v5.3_lgt5_catalog.fit
+member_file	/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/stripe82_redmapper_v5.2/run_cas_v3z/stripe82_cas_run_lzred_redmapper_v5.3_lgt5_catalog_members.fit
+#cluster_file	/nfs/slac/g/ki/ki19/des/erykoff/des/y1c1/redmapper_v5.2/run_v4z/y1c1_run_v4z_lzred_redmapper_v5.2_lgt5_catalog.fit
+#member_file	/nfs/slac/g/ki/ki19/des/erykoff/des/y1c1/redmapper_v5.2/run_v4z/y1c1_run_v4z_lzred_redmapper_v5.2_lgt5_catalog_members.fit
+kcorr_file	/u/ki/rmredd/ki10/redmapper/s82_v5.2_zred_0.3.fit
+area		275.
+#Output directory
+outdir		/u/ki/rmredd/data/redmapper/s82_zred/
+
+#KCORRECT information
+#Whether to use DES or SDSS bands
+use_des	    	0
+#Exclude u-band from kcorrections
+no_uband 	1
+#Uses i-band for calcs always
+#Whether to use zred, lambda_zred instead of defaults
+use_zred    	1
+
+#Use LRG template -- should always be set to true
+LRG  	 	1
+#Set desired bandshift
+bandshift	0.3
+
+#Whether or not to use scaleval weighting -- should be =1 by default
+use_scaleval	1
+
+#N(z) flag
+do_nz		1
+#N(lambda) flag
+do_nlambda	1
+
+#Redshift ranges for all other calcs
+zmin	  	0.1 0.2 0.3 0.4 0.5
+zmax		0.2 0.3 0.4 0.5 0.6
+#Lambda ranges for all other calcs
+lm_min	        10 20 40
+lm_max	        20 100 100
+#mag vs lum flag
+use_lum		1
+
+#Set whether or not to do ABM
+ABM  	     	0
+#If ABM==1, need to set alt cluster file
+abm_file    	/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v5.2/run/dr8_run_redmapper_v5.2_lgt5_catalog.fit
+abm_area	10504.
+
+#CLF parameters
+do_clf		1
+#use observed mags instead
+#Note that this is overruled by use_lum
+obs_clf	      	0
+#Weight centrals -- requires all centrals to be present in members catalog
+weight_cen	0
+
+#Radial profile parameters
+do_rpr		1
+rpr_minlum	9.8 10.2 10.6
+rpr_maxlum	12. 12. 12.
+
+#Magnitude gap parameters
+do_mgap	        1

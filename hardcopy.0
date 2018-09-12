@@ -1,0 +1,43 @@
+#Files
+cluster_file    /nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v
+5.10/run_ubermem/dr8_run_redmapper_v5.10_lgt5_catalog.fit
+member_file /nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v5.10
+/run_ubermem/dr8_run_redmapper_v5.10_lgt5_catalog_members_mod.fit
+kcorr_file  /nfs/slac/kipac/fs1/u/chto100/redmapper_clf/catche/dr8_v5.10_zlambda
+_0.3.fit
+#File that indexes the cluster centrals to the members list
+cindex_file /nfs/slac/kipac/fs1/u/chto100/redmapper_clf/catche/cindex_dr8_v5.10_
+zlambda_0.3.fit
+area        10405.
+#Output directory
+outdir      /nfs/slac/kipac/fs1/u/chto100/redmapper_clf/Result/dr8/
+
+#KCORRECT information
+#Whether to use DES or SDSS bands
+use_des         0
+#Exclude u-band from kcorrections
+no_uband    1
+#Uses i-band for calcs always
+#Whether to use zred, lambda_zred instead of defaults
+use_zred        0
+
+#Use LRG template -- should always be set to true
+LRG         1
+#Set desired bandshift
+bandshift   0.3
+
+#Whether or not to use scaleval weighting -- should be =1 by default
+use_scaleval    1
+#Whether to use extra dim/high radial distance galaxies
+use_p_ext       7
+ncolors     4
+p_offset    0.
+
+#N(z) flag
+do_nz       1
+
+#N(lambda) flag
+E886: Can't rename viminfo file to /u/ki/chto100/.viminfo!
+Press ENTER or type command to continue
+(lsst)[chto100@ki-ls09: redmapper]$
+

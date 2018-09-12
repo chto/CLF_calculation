@@ -1,0 +1,75 @@
+#Example parameter file for DR8
+#Pound symbol is comment
+
+#Files
+cluster_file /nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v5.10/run_ubermem/dr8_run_redmapper_v5.10_lgt5_catalog.fit
+member_file /nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v5.10/run_ubermem/dr8_run_redmapper_v5.10_lgt5_catalog_members_mod.fit	
+kcorr_file	/nfs/slac/kipac/fs1/u/chto100/redmapper_clf/catche/dr8_v5.10_finalpaper_test_descqa.fit
+#File that indexes the cluster centrals to the members list
+cindex_file	/nfs/slac/kipac/fs1/u/chto100/redmapper_clf/catche/cindex_dr8_v5.10_zlambda_finalpaper_test.fit
+area		10405.
+#Output directory
+outdir		/u/ki/chto100/code/redmapper_clf/DESCQA/data_test/
+jackknife_error 1
+#KCORRECT information
+#Whether to use DES or SDSS bands
+use_des	    	0
+#Exclude u-band from kcorrections
+no_uband 	1
+#Uses i-band for calcs always
+#Whether to use zred, lambda_zred instead of defaults
+use_zred    	0
+
+#Use LRG template -- should always be set to true
+LRG  	 	1
+#Set desired bandshift
+bandshift	0.3
+
+#Whether or not to use scaleval weighting -- should be =1 by default
+use_scaleval	1
+#Whether to use extra dim/high radial distance galaxies
+use_p_ext   	7
+ncolors		4
+p_offset	0.
+use_dr8_cen_corr  0
+
+#N(z) flag
+do_nz		0
+
+#N(lambda) flag
+do_nlambda	0
+
+#Redshift ranges for all other calcs
+zmin		0.1 0.2
+zmax		0.2 0.3
+#Lambda ranges for all other calcs
+lm_min	    5.0   10.0  15.0    
+lm_max	    10.0  15.0  100.0  
+#mag vs lum flag
+use_lum		0
+
+#Set whether or not to do ABM
+ABM  	     	0
+
+#CLF parameters
+do_clf		1
+plot_clf 1
+#use observed mags instead
+#Note that this is overruled by use_lum
+obs_clf	      	0
+#Weight centrals -- requires all centrals to be present in members catalog
+weight_cen	1
+
+#Radial profile parameters
+do_rpr		0
+rpr_minlum	9.4 9.8 10.2
+rpr_maxlum	12. 12. 12.
+
+#Magnitude gap parameters
+do_mgap	        0
+
+#Run P(BCG!=central)
+do_pbcg		0
+
+#Run brightest central-satellite distr
+do_bsat	    0

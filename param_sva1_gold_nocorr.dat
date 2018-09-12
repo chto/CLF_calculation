@@ -1,0 +1,83 @@
+#Example parameter file
+#Pound symbol is comment
+
+#Files
+cluster_file	/nfs/slac/g/ki/ki19/des/erykoff/des/sva1/gold_1.0/redmapper_v6.0/run_ubermem/sva1_gold_1.0.2_run_redmapper_v6.0_lgt5_catalog.fit
+member_file	/nfs/slac/g/ki/ki19/des/erykoff/des/sva1/gold_1.0/redmapper_v6.0/run_ubermem/sva1_gold_1.0.2_run_redmapper_v6.0_lgt5_catalog_members_mod.fit
+kcorr_file	/u/ki/rmredd/ki10/redmapper/sv1_v6.0_gold_uber_zlambda_0.3.fit
+#File that indexes the cluster centrals to the members list
+cindex_file	/u/ki/rmredd/ki10/redmapper/cindex_sv1_gold_uber_v6.0_zlambda_0.3.fit
+area		254.4
+#Output directory
+outdir		/u/ki/rmredd/data/redmapper/sv1_gold_v6.0_uber_nocorr/
+
+#KCORRECT information
+#Whether to use DES or SDSS bands
+use_des	    	1
+#Exclude u-band from kcorrections
+no_uband 	1
+#Uses i-band for calcs always
+#Whether to use zred, lambda_zred instead of defaults
+use_zred    	0
+#Extreme maximum redshift cut -- be generous here
+zcut_max 	1.0
+
+#Use LRG template -- should always be set to true
+LRG  	 	1
+#Set desired bandshift
+bandshift	0.3
+#Setting abs_solar for conversion to solar luminosities
+#SDSS i-band at z=0.3 is the default
+#abs_solar    	4.71493
+#DES i-band at z=0.3
+abs_solar      4.67966
+
+#Whether or not to use scaleval weighting -- should be =1 by default
+use_scaleval	1
+#Whether to use extra dim/high radial distance galaxies
+use_p_ext   	8
+ncolors		3
+
+#N(z) flag
+do_nz		1
+nz_descale	0
+
+#N(lambda) flag
+do_nlambda	1
+
+#Redshift ranges for all other calcs
+zmin	  	0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8
+zmax		0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+#Lambda ranges for all other calcs
+lm_min	        10 20 40
+lm_max	        20 100 100
+#mag vs lum flag
+use_lum		1
+
+#Set whether or not to do ABM
+ABM  	     	0
+#If ABM==1, need to set alt cluster file
+abm_file    	/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v5.2/run/dr8_run_redmapper_v5.2_lgt5_catalog.fit
+abm_area	10504.
+
+#CLF parameters
+do_clf		1
+#use observed mags instead
+#Note that this is overruled by use_lum
+obs_clf	      	0
+#Weight centrals -- requires all centrals to be present in members catalog
+weight_cen	1
+
+#Radial profile parameters
+do_rpr		0
+rpr_minlum	10.2 10.6
+rpr_maxlum	12. 12.
+
+#Magnitude gap parameters
+do_mgap	        0
+
+#Run P(BCG!=central)
+do_pbcg		1
+
+#Run brightest central-satellite distr
+do_bsat	        1

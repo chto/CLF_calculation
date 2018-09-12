@@ -1,0 +1,1 @@
+Adjustment to g_index definition in centrals index determination in redm_full to avoid excessive memory use

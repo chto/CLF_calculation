@@ -1,0 +1,76 @@
+#Example parameter file for DR8
+#Pound symbol is comment
+
+#Files
+cluster_file	/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v5.10/run_ubermem/dr8_run_redmapper_v5.10_lgt5_catalog.fit
+member_file	/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v5.10/run_ubermem/dr8_run_redmapper_v5.10_lgt5_catalog_members_mod.fit
+kcorr_file	/u/ki/rmredd/ki10/redmapper/dr8_v5.10_zlambda_0.3.fit
+#File that indexes the cluster centrals to the members list
+cindex_file	/u/ki/rmredd/ki10/redmapper/cindex_dr8_v5.10_zlambda_0.3.fit
+area		10405.
+#Output directory
+outdir		/u/ki/rmredd/data/redmapper/dr8_zlambda_v5.10_hi/
+
+#KCORRECT information
+#Whether to use DES or SDSS bands
+use_des	    	0
+#Exclude u-band from kcorrections
+no_uband 	1
+#Uses i-band for calcs always
+#Whether to use zred, lambda_zred instead of defaults
+use_zred    	0
+
+#Use LRG template -- should always be set to true
+LRG  	 	1
+#Set desired bandshift
+bandshift	0.3
+
+#Whether or not to use scaleval weighting -- should be =1 by default
+use_scaleval	1
+#Whether to use extra dim/high radial distance galaxies
+use_p_ext   	7
+ncolors		4
+p_offset	0.024
+
+#N(z) flag
+do_nz		1
+
+#N(lambda) flag
+do_nlambda	1
+
+#Redshift ranges for all other calcs
+zmin		0.1 0.15 0.2 0.25 0.3
+zmax		0.15 0.2 0.25 0.3 0.33
+#Lambda ranges for all other calcs
+lm_min	        10 15 20 20 25 30 40 60
+lm_max	        15 20 100 25 30 40 60 100
+#mag vs lum flag
+use_lum		1
+
+#Set whether or not to do ABM
+ABM  	     	0
+#If ABM==1, need to set alt cluster file
+abm_file    	/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v5.2/run/dr8_run_redmapper_v5.2_lgt5_catalog.fit
+abm_area	10504.
+
+#CLF parameters
+do_clf		1
+#use observed mags instead
+#Note that this is overruled by use_lum
+obs_clf	      	0
+#Weight centrals -- requires all centrals to be present in members catalog
+weight_cen	1
+
+#Radial profile parameters
+do_rpr		0
+rpr_minlum	9.4 9.8 10.2
+rpr_maxlum	12. 12. 12.
+
+#Magnitude gap parameters
+do_mgap	        0
+
+#Run P(BCG!=central)
+do_pbcg		1
+
+#Run brightest central-satellite distr
+do_bsat	        1

@@ -1,0 +1,35 @@
+###!/bin/bash
+#BSUB -W 48:00
+#BSUB -J runCLF_dr8
+#BSUB -q kipac-ibq
+#BSUB -u chto100
+#BSUB -oo chtolog/param_dr8_v5.10_paper_%J.log
+#python redm_full.py  chtoParam/param_DES_y1a1_real.dat
+#python redm_full.py  chtoParam/SDSSPaper/param_dr8_v5.10_paper.dat
+#python redm_full.py  chtoParam/SDSSPaper/StellarMass/param_dr8_v5.10_paper_stellarmass.dat
+#python redm_full.py chtoParam/SDSSPaper/StellarMass/param_dr8_v5.10_paper_stellarmass_Bernardi.dat
+#python redm_full.py chtoParam/SDSSPaper/StellarMass/param_dr8_v5.10_paper_stellarmass_Bernardi_dustfree.dat
+#python redm_full.py  chtoParam/param_DES_buzzard_v1.4_halo_rband.dat
+#python redm_full.py  chtoParam/testFile/param_dr8_v5.10_test.dat
+#python redm_full.py  chtoParam/param_DES_buzzard_v1.4_rband.dat
+#python redm_full.py  chtoParam/param_DES_y1a1_real_rband.dat
+
+#python redm_full.py  chtoParam/param_dr8_v6.3.1.dat
+#python redm_full.py  chtoParam/param_dr8_v5.10.dat
+#python redm_full.py param_buzzard-v1.1-y1a1.dat
+#python redm_full.py chtoParam/param_sva1_gold_uber.dat
+
+
+#python redm_full.py /afs/slac.stanford.edu/u/ki/chto100/code/redmapper_clf/redmapper/chtoParam/SDSSPaper/Bernardi/Bernardi_sys/chto_correct_v7_nocencorr_orig_conv.dat 
+######SDSSPAPER
+#python redm_full.py /afs/slac.stanford.edu/u/ki/chto100/code/redmapper_clf/redmapper/chtoParam/SDSSPaper/Bernardi/Bernardi_sys_jacknife/chto_correct_v7_nocencorr_orig_conv_150jack.dat 
+#systematic
+python redm_full.py /afs/slac.stanford.edu/u/ki/chto100/code/redmapper_clf/redmapper/chtoParam/SDSSPaper/systematic_test/chto_correct_v7_nocencorr_orig_conv_150jack_modifypcen.dat
+##############################
+#python redm_full.py /afs/slac.stanford.edu/u/ki/chto100/code/redmapper_clf/redmapper/chtoParam/SDSSPaper/Bernardi/Bernardi_sys_jacknife/chto_correct_v7_nocencorr_orig_conv_boot.dat 
+#python redm_full.py /afs/slac.stanford.edu/u/ki/chto100/code/redmapper_clf/redmapper/chtoParam/SDSSPaper/Bernardi/Bernardi_sys/chto_correct_v7_nocencorr_orig_conv_up.dat 
+#python redm_full.py /afs/slac.stanford.edu/u/ki/chto100/code/redmapper_clf/redmapper/chtoParam/SDSSPaper/Bernardi/Bernardi_sys/chto_correct_v7_nocencorr_orig_conv_dw.dat 
+
+#python redm_full.py /afs/slac.stanford.edu/u/ki/chto100/code/redmapper_clf/redmapper/chtoParam/SDSSPaper/Bernardi/Bernardi_sys/chto_correct_v7_nocencorr_serexp_conv.dat 
+#python redm_full.py /afs/slac.stanford.edu/u/ki/chto100/code/redmapper_clf/redmapper/chtoParam/SDSSPaper/Bernardi/Bernardi_sys/chto_correct_v7_nocencorr_serexp_conv_up.dat 
+#python redm_full.py /afs/slac.stanford.edu/u/ki/chto100/code/redmapper_clf/redmapper/chtoParam/SDSSPaper/Bernardi/Bernardi_sys/chto_correct_v7_nocencorr_serexp_conv_dw.dat 

@@ -1,0 +1,125 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+WARNING:  Default abs_solar is for SDSS i-band at z=0.3
+WARNING:  Default is NOT to use central mag correction
+          use_dr8_cen_corr = 0
+WARNING: Default is to not use lambda errors
+WARNING:  Default nz_descale (0)
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+406740  clusters read in
+0.599985
+Reading members file...
+23029243  galaxies read in
+23029243  galaxies kcorrected
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Traceback (most recent call last):
+  File "redm_full.py", line 420, in <module>
+    cat['pz'][i] = cat['pz'][i]/weight[i]
+  File "/afs/slac.stanford.edu/g/ki/software/python/2.7.3/amd64_rhel60/lib/python2.7/site-packages/pyfits-3.3-py2.7-linux-x86_64.egg/pyfits/fitsrec.py", line 482, in __getitem__
+    return self.field(key)
+  File "/afs/slac.stanford.edu/g/ki/software/python/2.7.3/amd64_rhel60/lib/python2.7/site-packages/pyfits-3.3-py2.7-linux-x86_64.egg/pyfits/fitsrec.py", line 613, in field
+    n_phantom = len([c for c in self.columns[:col_indx] if c._phantom])
+  File "/afs/slac.stanford.edu/g/ki/software/python/2.7.3/amd64_rhel60/lib/python2.7/site-packages/pyfits-3.3-py2.7-linux-x86_64.egg/pyfits/column.py", line 1158, in __getitem__
+    return ColDefs(x)
+  File "/afs/slac.stanford.edu/g/ki/software/python/2.7.3/amd64_rhel60/lib/python2.7/site-packages/pyfits-3.3-py2.7-linux-x86_64.egg/pyfits/column.py", line 951, in __init__
+    self._init_from_sequence(input)
+  File "/afs/slac.stanford.edu/g/ki/software/python/2.7.3/amd64_rhel60/lib/python2.7/site-packages/pyfits-3.3-py2.7-linux-x86_64.egg/pyfits/column.py", line 972, in _init_from_sequence
+    self._init_from_coldefs(columns)
+  File "/afs/slac.stanfUser defined signal 2
+python/2.7.3/amd64_rhel60/lib/python2.7/site-packages/pyfits-3.3-py2.7-linux-x86_64.egg/pyfits/column.py", line 964, in _init_from_coldefs
+    self.columns = [self._copy_column(col) for col in coldefs]
+  File "/afs/slac.stanford.edu/g/ki/software/python/2.7.3/amd64_rhel60/lib/python2.7/site-packages/pyfits-3.3-py2.7-linux-x86_64.egg/pyfits/column.py", line 1071, in _copy_column
+    return column.copy()
+  File "/afs/slac.stanford.edu/g/ki/software/python/2.7.3/amd64_rhel60/lib/python2.7/site-packages/pyfits-3.3-py2.7-linux-x86_64.egg/pyfits/column.py", line 530, in copy
+    tmp = Column(format='I')  # just use a throw-away format
+  File "/afs/slac.stanford.edu/g/ki/software/python/2.7.3/amd64_rhel60/lib/python2.7/site-packages/pyfits-3.3-py2.7-linux-x86_64.egg/pyfits/column.py", line 415, in __init__
+    if isinstance(value, Card):
+KeyboardInterrupt
+
+------------------------------------------------------------
+Sender: LSF System <lsf@hequ0113>
+Subject: Job 233923: <runCLF> in cluster <slac> Exited
+
+Job <runCLF> was submitted from host <ki-ls09> by user <chto100> in cluster <slac>.
+Job was executed on host(s) <hequ0113>, in queue <long>, as user <chto100> in cluster <slac>.
+</u/ki/chto100> was used as the home directory.
+</nfs/slac/kipac/fs1/u/chto100/redmapper_clf/redmapper> was used as the working directory.
+Started at Fri Jan 20 23:15:29 2017
+Results reported on Fri Jan 20 23:49:32 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+###!/bin/bash
+#BSUB -q long
+#BSUB -W 24:00
+#BSUB -J runCLF
+#BSUB -oo batch_redm_fullnew.out
+python redm_full.py param_dr8.dat
+
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   2006.31 sec.
+    Max Memory :                                 13108 MB
+    Average Memory :                             11717.21 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   13712 MB
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   2042 sec.
+    Turnaround time :                            2045 sec.
+
+The output (if any) is above this job summary.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsf@fell0052>
+Subject: Job 143267: <runCLF> in cluster <slac> Exited
+
+Job <runCLF> was submitted from host <ki-ls09> by user <chto100> in cluster <slac>.
+Job was executed on host(s) <fell0052>, in queue <long>, as user <chto100> in cluster <slac>.
+</u/ki/chto100> was used as the home directory.
+</nfs/slac/kipac/fs1/u/chto100/redmapper_clf/redmapper> was used as the working directory.
+Started at Fri Jan 20 17:34:38 2017
+Results reported on Sat Jan 21 01:35:21 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+###!/bin/bash
+#BSUB -q long
+#BSUB -W 8:00
+#BSUB -J runCLF
+#BSUB -oo batch_redm_fullnew.out
+python redm_full.py param_dr8.dat
+
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   28562.37 sec.
+    Max Memory :                                 15300 MB
+    Average Memory :                             14254.31 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   7992 MB
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   28842 sec.
+    Turnaround time :                            28845 sec.
+
+The output (if any) is above this job summary.
+

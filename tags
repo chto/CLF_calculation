@@ -1,0 +1,269 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Counter	redm_clf.py	/^from collections import Counter$/;"	i
+Counter	redm_rpr.py	/^from collections import Counter$/;"	i
+Hubble	cosmo.py	/^def Hubble(z, H0=100., omegaM=0.27, omegaL=0.73):$/;"	f
+Lsolar_to_mag	mag_convert.py	/^def Lsolar_to_mag(lum,use_des=0,abs_solar=4.57595):$/;"	f
+abm	redm_full.py	/^        abm = abm[1].data$/;"	v
+abm	redm_full.py	/^        abm = pyfits.open(params['abm_file'])$/;"	v
+abm_limit_single	abm_limits.py	/^def abm_limit_single(lambda1,z1,area1,lambda2,z2,area2,zmin,zmax,lcut):$/;"	f
+abm_limits	abm_limits.py	/^def abm_limits(cat,cat_abm,area,abm_area,zmin,zmax,lcut):$/;"	f
+abs_solar	redm_full.py	/^                                            abs_solar=abs_solar))$/;"	v
+abs_solar	redm_full.py	/^                                        abs_solar=abs_solar))$/;"	v
+abs_solar	redm_full.py	/^        abs_solar = float(params['abs_solar'])$/;"	v
+bootlist	redm_full.py	/^    bootlist = pz_utils.make_boot_samples_simple(nboot,cat)$/;"	v
+c_dr8	central_correction.py	/^    c_dr8 = c_dr8[1].data$/;"	v
+c_dr8	central_correction.py	/^    c_dr8 = pyfits.open("\/nfs\/slac\/g\/ki\/ki19\/des\/erykoff\/clusters\/process\/dr8_redmapper_v5.10\/run_ubermem\/dr8_run_redmapper_v5.10_lgt5_catalog.fit")$/;"	v
+c_names	redm_full.py	/^    c_names = cat.columns.names$/;"	v
+c_s82	central_correction.py	/^    c_s82 = c_s82[1].data$/;"	v
+c_s82	central_correction.py	/^    c_s82 = pyfits.open("\/nfs\/slac\/g\/ki\/ki19\/des\/erykoff\/clusters\/process\/stripe82_redmapper_v5.10\/run_ubermem\/stripe82_run_redmapper_v5.10_lgt5_catalog.fit")$/;"	v
+cat	redm_full.py	/^    cat = cat[1].data$/;"	v
+cat	redm_full.py	/^    cat = cat[clist]$/;"	v
+cat	redm_full.py	/^    cat = pyfits.open(params['cluster_file'])$/;"	v
+cengalindex	redm_full.py	/^            cengalindex = cengalindex.astype(long)$/;"	v
+cengalindex	redm_full.py	/^            cengalindex = cengalindex[0]$/;"	v
+cengalindex	redm_full.py	/^            cengalindex = cengalindex[0].data$/;"	v
+cengalindex	redm_full.py	/^            cengalindex = pyfits.open(params['cindex_file'])$/;"	v
+cengalindex	redm_full.py	/^        cengalindex = np.zeros_like(cat['id_cent'])$/;"	v
+cengalindex	redm_full.py	/^    cengalindex = cengalindex.astype(long)$/;"	v
+cengalindex	redm_full.py	/^    cengalindex = cengalindex[clist]$/;"	v
+cengalindex	redm_full.py	/^    cengalindex = idn_list[cengalindex]$/;"	v
+cenmag	redm_full.py	/^            cenmag = cenmag + correct_dr8_cen([0.213,-0.08],cat['z_lambda'])$/;"	v
+cenmag	redm_full.py	/^            cenmag = cenmag[0]$/;"	v
+cenmag	redm_full.py	/^            cenmag = np.zeros_like(cengalindex).astype(float)$/;"	v
+cenmag	redm_full.py	/^        cenmag = np.log10(mag_to_Lsolar(cenmag,use_des=int(params['use_des']),$/;"	v
+cenmag	redm_full.py	/^        cenmag = np.zeros_like(cengalindex).astype(float)$/;"	v
+cenmag	redm_full.py	/^    cenmag = cenmag[clist]$/;"	v
+clist	redm_full.py	/^            clist = np.where(cengalindex[:,i] != -1)[0]$/;"	v
+clist	redm_full.py	/^    clist = np.where( cat['z_lambda'] < float(params['zcut_max']) )[0]$/;"	v
+clist_dr8	central_correction.py	/^    clist_dr8 = np.where(c_dr8['ncent_good'] >= 2)[0]$/;"	v
+clist_s82	central_correction.py	/^    clist_s82 = np.where(c_s82['ncent_good'] >= 2)[0]    $/;"	v
+cluster_Lcount	redm_clf.py	/^def cluster_Lcount(lumbins,limmag,use_lum=0,p=[]):$/;"	f
+cmlist	redm_full.py	/^    cmlist = np.where( mem['z'] < float(params['zcut_max']))[0]$/;"	v
+comoving_volume	cosmo.py	/^def comoving_volume(zmin,zmax,H0=67.04, omegaM=0.317, omegaL=0.683):$/;"	f
+correct_dr8_cen	central_correction.py	/^def correct_dr8_cen(param,z):$/;"	f
+correct_dr8_cen	redm_full.py	/^from central_correction import correct_dr8_cen$/;"	i
+corrlist	redm_full.py	/^            corrlist = np.where(cat['ncent_good'] >=2)[0]$/;"	v
+cosmo	redm_full.py	/^import cosmo$/;"	i
+cosmo	redm_nlambda_calc.py	/^import cosmo$/;"	i
+count_arr	redm_full.py	/^        count_arr = redm_bright_sat.get_bright_sat_cen_all(cat,mem,mag,cengalindex,$/;"	v
+count_galaxies_p	redm_clf.py	/^def count_galaxies_p(c_mem_id,scaleval,g_mem_id,p,mag,lumbins):$/;"	f
+count_galaxies_p_cen	redm_clf.py	/^def count_galaxies_p_cen(cat,cenmag,lumbins,weight_cen=0):$/;"	f
+count_galaxies_p_r	redm_rpr.py	/^def count_galaxies_p_r(c_mem_id,scaleval,g_mem_id,r,p,mag,rbins,minlum,maxlum):$/;"	f
+count_galaxies_rand	redm_clf.py	/^def count_galaxies_rand(c_mem_id,g_mem_id,scaleval,lumbins,mag,select):$/;"	f
+count_galaxies_rand_all	redm_clf.py	/^def count_galaxies_rand_all(bootlist, gboot, c_mem_id, scaleval, g_mem_id, lumbins, mag, p):$/;"	f
+count_galaxies_rand_all_r	redm_rpr.py	/^def count_galaxies_rand_all_r(bootlist, gboot, c_mem_id, scaleval, g_mem_id, minlum, maxlum, rbins, mag, p, r):$/;"	f
+count_galaxies_rand_cen	redm_clf.py	/^def count_galaxies_rand_cen(cat,cenmag,cengalindex,lumbins,weight_cen=0):$/;"	f
+descale	redm_full.py	/^                     descale=bool(int(params['nz_descale'])))$/;"	v
+dimmer_rlambda_p	pz_utils.py	/^def dimmer_rlambda_p(use_p_ext,c_mem_id,lambda_chisq,r_lambda,$/;"	f
+dimmer_rlambda_p_new	pz_utils.py	/^def dimmer_rlambda_p_new(use_p_ext,c_mem_id,lambda_chisq,r_lambda,$/;"	f
+dz	redm_full.py	/^    dz = cat['pzbins'][:,1] - cat['pzbins'][:,0]$/;"	v
+elist	redm_full.py	/^        elist = np.where(rpr_minlum > rpr_maxlum)[0]$/;"	v
+error_check	redm_full.py	/^            error_check = 1$/;"	v
+error_check	redm_full.py	/^        error_check = 0$/;"	v
+esutil	central_correction.py	/^import esutil$/;"	i
+filename	redm_full.py	/^    filename = sys.argv[1]$/;"	v
+g_dr8	central_correction.py	/^    g_dr8 = g_dr8[1].data$/;"	v
+g_dr8	central_correction.py	/^    g_dr8 = pyfits.open("\/nfs\/slac\/g\/ki\/ki19\/des\/erykoff\/clusters\/process\/dr8_redmapper_v5.10\/run_ubermem\/dr8_run_redmapper_v5.10_lgt5_catalog_members_mod.fit")$/;"	v
+g_index	redm_full.py	/^        g_index = np.zeros(np.max(mem['id'])-offset+1)-1$/;"	v
+g_s82	central_correction.py	/^    g_s82 = g_s82[1].data$/;"	v
+g_s82	central_correction.py	/^    g_s82 = pyfits.open("\/nfs\/slac\/g\/ki\/ki19\/des\/erykoff\/clusters\/process\/stripe82_redmapper_v5.10\/run_ubermem\/stripe82_run_redmapper_v5.10_lgt5_catalog_members_mod.fit")$/;"	v
+gaps_noweight	redm_mgap.py	/^def gaps_noweight(c_mem_id,cenmag,cengalindex,g_mem_id,mag,p,use_lum=False):$/;"	f
+gaps_noweight_index	redm_mgap.py	/^def gaps_noweight_index(c_mem_id,cenmag,cengalindex,g_mem_id,mag,p,use_lum=False):$/;"	f
+gaps_weight	redm_mgap.py	/^def gaps_weight(c_mem_id,cenmag,cengalindex,pcen,g_mem_id,mag,p,use_lum=False):$/;"	f
+get_bright_sat_cen	redm_bright_sat.py	/^def get_bright_sat_cen(pcen,cenmag,cindex,mag,p,start_index,$/;"	f
+get_bright_sat_cen_all	redm_bright_sat.py	/^def get_bright_sat_cen_all(cat,mem,mag,cindex,cenmag,lm_min,lm_max,zmin,zmax,$/;"	f
+get_brightest_sat	redm_pbcg.py	/^def get_brightest_sat(cat,cindex,g_mem_id,mag,p,use_lum=1):$/;"	f
+get_brightest_satellite	redm_bright_sat.py	/^def get_brightest_satellite(pcen,cindex,mag,p,start_index,$/;"	f
+get_brightest_satellite_all	redm_bright_sat.py	/^def get_brightest_satellite_all(cat,mem,mag,cindex,lm_min,lm_max,zmin,zmax,$/;"	f
+get_central_mag	get_central_mag.py	/^def get_central_mag(cat,mem,mag,weight_cen=0):$/;"	f
+get_cindex_and_cenmag	central_correction.py	/^def get_cindex_and_cenmag(id_cent,g_id,g_imag):$/;"	f
+get_limmag_5sigma	get_limmag_5sigma.py	/^def get_limmag_5sigma(lim_limmag,lim_exptime):$/;"	f
+get_limmag_5sigma	redm_full.py	/^from get_limmag_5sigma import get_limmag_5sigma$/;"	i
+get_p_bcg_not_cen	redm_pbcg.py	/^def get_p_bcg_not_cen(cat,cenmag,cindex,pcen,g_mem_id,mag,p,$/;"	f
+get_sindex	central_correction.py	/^def get_sindex(cindex,ncent_good,g_imag):$/;"	f
+h	central_correction.py	/^    h = esutil.htm.HTM(11)$/;"	v
+hdu	redm_full.py	/^            hdu = pyfits.PrimaryHDU(cengalindex)$/;"	v
+idl_tabulate	idl_tabulate.py	/^def idl_tabulate(x, f, p=5) :$/;"	f
+idn_list	redm_full.py	/^    idn_list = np.zeros(len(mag))$/;"	v
+integrate	idl_tabulate.py	/^import scipy.integrate$/;"	i
+integrate	pext_correct.py	/^import scipy.integrate$/;"	i
+kcorr	redm_full.py	/^    kcorr = kcorr[0].data$/;"	v
+kcorr	redm_full.py	/^    kcorr = kcorr[cmlist]$/;"	v
+kcorr	redm_full.py	/^    kcorr = pyfits.open(params['kcorr_file'])$/;"	v
+limmag	redm_full.py	/^                           limmag=limmag)$/;"	v
+limmag	redm_full.py	/^            limmag = cat['LIM_LIMMAG']$/;"	v
+limmag	redm_full.py	/^            limmag = np.log10(mag_to_Lsolar(limmag,use_des=int(params['use_des']),$/;"	v
+limmag	redm_full.py	/^        limmag = []$/;"	v
+limmag	redm_full.py	/^        limmag = get_limmag_5sigma(limmag,cat['lim_exptime'])$/;"	v
+limmag	redm_full.py	/^        limmag = limmag - ( cat['imag'] - cenmag[:,0] )$/;"	v
+limmag	redm_full.py	/^    limmag = limmag[clist]$/;"	v
+lm_distmod	cosmo.py	/^def lm_distmod(r,z):$/;"	f
+lm_max	redm_full.py	/^        lm_max = abm_limits(cat,abm,float(params['area']),$/;"	v
+lm_max	redm_full.py	/^        lm_max = np.repeat([lm_max],my_nz,axis=0)$/;"	v
+lm_max	redm_full.py	/^    lm_max = lm_max.astype(float)$/;"	v
+lm_max	redm_full.py	/^    lm_max = np.array(params['lm_max'])$/;"	v
+lm_min	redm_full.py	/^        lm_min = abm_limits(cat,abm,float(params['area']),$/;"	v
+lm_min	redm_full.py	/^        lm_min = np.repeat([lm_min],my_nz,axis=0)$/;"	v
+lm_min	redm_full.py	/^    lm_min = lm_min.astype(float)$/;"	v
+lm_min	redm_full.py	/^    lm_min = np.array(params['lm_min'])$/;"	v
+m1_c2	central_correction.py	/^    m1_c2 = clist_dr8[m1_c2]$/;"	v
+m2_c3	central_correction.py	/^    m2_c3 = clist_s82[m2_c2]$/;"	v
+mag	redm_full.py	/^            mag = mem['imag'] + (kcorr[:,2] - mem['model_mag'][:,2])$/;"	v
+mag	redm_full.py	/^            mag = mem['imag'] + (kcorr[:,2] - mem['model_mag'][:,3])$/;"	v
+mag	redm_full.py	/^        mag = mem['imag']$/;"	v
+mag	redm_full.py	/^        mag = np.log10(mag_to_Lsolar(mag,use_des=int(params['use_des']),abs_solar=abs_solar))$/;"	v
+mag	redm_full.py	/^    mag = mag[cmlist]$/;"	v
+mag_to_Lsolar	mag_convert.py	/^def mag_to_Lsolar(mag,use_des=0,abs_solar=4.57595):$/;"	f
+make_boot_lambda	pz_utils.py	/^def make_boot_lambda(bootlist,c_mem_id,scaleval,g_mem_id,gboot,p,$/;"	f
+make_boot_samples	pz_utils.py	/^def make_boot_samples(nboot,cat):$/;"	f
+make_boot_samples_gal	pz_utils.py	/^def make_boot_samples_gal(nboot,p):$/;"	f
+make_boot_samples_gal_full	pz_utils.py	/^def make_boot_samples_gal_full(bootlist,c_mem_id,g_mem_id,p):$/;"	f
+make_boot_samples_simple	pz_utils.py	/^def make_boot_samples_simple(nboot, cat):$/;"	f
+make_single_clf	redm_clf.py	/^def make_single_clf(lm,z,lumbins,count_arr,lm_min,lm_max,zmin,zmax,$/;"	f
+make_single_rpr	redm_rpr.py	/^def make_single_rpr(lm,z,minlum,maxlum,count_arr,lm_min,lm_max,zmin,zmax,rbins):$/;"	f
+match_g_to_c	subselect.py	/^def match_g_to_c(g,csub):$/;"	f
+mcut	central_correction.py	/^    mcut = 19. #Apparent magnitude cut$/;"	v
+mem	redm_full.py	/^    mem = mem[1].data$/;"	v
+mem	redm_full.py	/^    mem = mem[cmlist]$/;"	v
+mem	redm_full.py	/^    mem = pyfits.open(params['member_file'])$/;"	v
+mgap_print	redm_mgap.py	/^def mgap_print(lbins,gaps,outfile):$/;"	f
+my_nz	redm_full.py	/^        my_nz = len(zmin)$/;"	v
+nboot	redm_full.py	/^    nboot = 100$/;"	v
+newton_cotes	idl_tabulate.py	/^    def newton_cotes(x, f) :$/;"	f	function:idl_tabulate
+np	abm_limits.py	/^import numpy as np$/;"	i
+np	central_correction.py	/^import numpy as np$/;"	i
+np	cosmo.py	/^import numpy as np$/;"	i
+np	get_central_mag.py	/^import numpy as np$/;"	i
+np	get_limmag_5sigma.py	/^import numpy as np$/;"	i
+np	idl_tabulate.py	/^import numpy as np$/;"	i
+np	mag_convert.py	/^import numpy as np$/;"	i
+np	pext_correct.py	/^import numpy as np$/;"	i
+np	pz_utils.py	/^import numpy as np$/;"	i
+np	redm_bigcount.py	/^import numpy as np$/;"	i
+np	redm_bright_sat.py	/^import numpy as np$/;"	i
+np	redm_clf.py	/^import numpy as np$/;"	i
+np	redm_full.py	/^import numpy as np$/;"	i
+np	redm_mgap.py	/^import numpy as np$/;"	i
+np	redm_nlambda_calc.py	/^import numpy as np$/;"	i
+np	redm_nz_calc.py	/^import numpy as np$/;"	i
+np	redm_pbcg.py	/^import numpy as np$/;"	i
+np	redm_rpr.py	/^import numpy as np$/;"	i
+np	set_zred.py	/^import numpy as np$/;"	i
+np	subselect.py	/^import numpy as np$/;"	i
+obs_clf	redm_full.py	/^                                                           obs_clf=int(params['obs_clf']))$/;"	v
+obs_clf	redm_full.py	/^                           obs_clf=int(params['obs_clf']),use_lum=int(params['use_lum']),$/;"	v
+offset	redm_full.py	/^        offset = np.min(mem['id'])$/;"	v
+os	get_central_mag.py	/^import os$/;"	i
+os	pext_correct.py	/^import os$/;"	i
+os	redm_bigcount.py	/^import os$/;"	i
+os	redm_full.py	/^import os$/;"	i
+os	redm_mgap.py	/^import os$/;"	i
+os	set_zred.py	/^import os$/;"	i
+p_in_lmbin	pz_utils.py	/^def p_in_lmbin(lambda_val,lambda_err,lm_min,lm_max):$/;"	f
+p_in_zbin	pz_utils.py	/^def p_in_zbin(pz,pzbins,zmin,zmax):$/;"	f
+params	redm_full.py	/^    params = read_redm_param(filename)$/;"	v
+pcen_all	redm_full.py	/^    pcen_all = np.zeros(len(mem))$/;"	v
+pext_correct	pext_correct.py	/^def pext_correct(p_old, chi2):$/;"	f
+pext_correct	redm_full.py	/^import pext_correct$/;"	i
+pext_correct_analytic	pext_correct.py	/^def pext_correct_analytic(p_old,cat_chisq,cat_chisq_mod,r,ncolors=4.):$/;"	f
+pext_correct_blue	pext_correct.py	/^def pext_correct_blue(p_old,cat_chisq,cat_chisq_mod,r,ncolors=4.):$/;"	f
+pext_correct_full	pext_correct.py	/^def pext_correct_full(cat,mem,pcen_all,use_p_ext,ncolors):$/;"	f
+pext_correct_partial	pext_correct.py	/^def pext_correct_partial(p_old):$/;"	f
+plist	redm_full.py	/^        plist = np.where(mem['p'] < 0.)[0]$/;"	v
+plist	redm_full.py	/^        plist = np.where(mem['p'] > 1.)[0]$/;"	v
+predfunc_fiducial	pext_correct.py	/^def predfunc_fiducial(x):$/;"	f
+print_boot_test	redm_clf.py	/^def print_boot_test(lumbins,clf,outfile):$/;"	f
+print_clf_covar	redm_clf.py	/^def print_clf_covar(lumbins,clf,covar,outfile,covarfile):$/;"	f
+print_rpr_covar	redm_rpr.py	/^def print_rpr_covar(rbins,rpr,covar,outfile,covarfile):$/;"	f
+pyfits	central_correction.py	/^import pyfits$/;"	i
+pyfits	get_central_mag.py	/^import pyfits$/;"	i
+pyfits	pext_correct.py	/^import pyfits$/;"	i
+pyfits	redm_clf.py	/^import pyfits$/;"	i
+pyfits	redm_full.py	/^import pyfits$/;"	i
+pyfits	redm_mgap.py	/^import pyfits$/;"	i
+pyfits	redm_nlambda_calc.py	/^import pyfits$/;"	i
+pyfits	redm_nz_calc.py	/^import pyfits$/;"	i
+pyfits	redm_rpr.py	/^import pyfits$/;"	i
+pyfits	set_zred.py	/^import pyfits$/;"	i
+pyfits	subselect.py	/^import pyfits$/;"	i
+pz_utils	pext_correct.py	/^import pz_utils$/;"	i
+pz_utils	redm_clf.py	/^import pz_utils$/;"	i
+pz_utils	redm_nlambda_calc.py	/^import pz_utils$/;"	i
+pz_utils	redm_nz_calc.py	/^import pz_utils$/;"	i
+rco	cosmo.py	/^def rco(z, H0=67.04, omegaM=0.317, omegaL=0.683):$/;"	f
+read_redm_param	redm_full.py	/^def read_redm_param(filename):$/;"	f
+redm_bigcount	redm_bigcount.py	/^def redm_bigcount(lambda_chisq,z,zmin,zmax,outdir,ncl=50):$/;"	f
+redm_bright_sat	redm_full.py	/^import redm_bright_sat$/;"	i
+redm_clf	redm_clf.py	/^def redm_clf(cat,mem,mag,cenmag,cengalindex,lm_min,lm_max,zmin,zmax,$/;"	f
+redm_clf	redm_full.py	/^import redm_clf$/;"	i
+redm_mgap	redm_full.py	/^import redm_mgap$/;"	i
+redm_mgap	redm_mgap.py	/^def redm_mgap(cat,mem,cenmag,cengalindex,mag,zmin,zmax,$/;"	f
+redm_nlambda	redm_nlambda_calc.py	/^def redm_nlambda(lambda_chisq,lambda_err,z,zmin,zmax,area,p_zbin,use_pz=False):$/;"	f
+redm_nlambda_calc	redm_nlambda_calc.py	/^def redm_nlambda_calc(cat,area,outdir,zmin,zmax):$/;"	f
+redm_nlambda_err	redm_nlambda_calc.py	/^def redm_nlambda_err(lambda_chisq,lambda_err,z,pz,pzbins,$/;"	f
+redm_nz_calc	redm_nz_calc.py	/^def redm_nz_calc(cat,area,outdir,bootlist,descale=False):$/;"	f
+redm_nz_calc_short	redm_nz_calc.py	/^def redm_nz_calc_short(cat,area,outdir,narrow=False):$/;"	f
+redm_pbcg	redm_full.py	/^import redm_pbcg$/;"	i
+redm_rpr	redm_full.py	/^import redm_rpr$/;"	i
+redm_rpr	redm_rpr.py	/^def redm_rpr(cat,mem,mag,lm_min,lm_max,zmin,zmax,minlum,maxlum,$/;"	f
+remap_three_colors_to_four	pext_correct.py	/^def remap_three_colors_to_four(chisq):$/;"	f
+rpr_maxlum	redm_full.py	/^        rpr_maxlum = np.array(params['rpr_maxlum'])$/;"	v
+rpr_maxlum	redm_full.py	/^        rpr_maxlum = rpr_maxlum.astype(float)$/;"	v
+rpr_minlum	redm_full.py	/^        rpr_minlum = np.array(params['rpr_minlum'])$/;"	v
+rpr_minlum	redm_full.py	/^        rpr_minlum = rpr_minlum.astype(float)$/;"	v
+satmag_dr8	central_correction.py	/^    satmag_dr8 = satmag_dr8[slist]$/;"	v
+satmag_s82	central_correction.py	/^    satmag_s82 = satmag_s82[slist]$/;"	v
+scipy	idl_tabulate.py	/^import scipy$/;"	i
+scipy	idl_tabulate.py	/^import scipy.integrate$/;"	i
+scipy	pext_correct.py	/^import scipy.integrate$/;"	i
+scipy	pext_correct.py	/^import scipy.special$/;"	i
+scipy	pz_utils.py	/^import scipy.special$/;"	i
+select_rand_z	pz_utils.py	/^def select_rand_z(pz,pzbins):$/;"	f
+select_rand_z_set	pz_utils.py	/^def select_rand_z_set(pz,pzbins):$/;"	f
+set_zred	redm_full.py	/^import set_zred$/;"	i
+set_zred	set_zred.py	/^def set_zred(cat,mem):$/;"	f
+sindex_dr8	central_correction.py	/^    sindex_dr8 = sindex_dr8[slist]$/;"	v
+sindex_s82	central_correction.py	/^    sindex_s82 = sindex_s82[slist]$/;"	v
+slist	central_correction.py	/^    slist = np.where(satmag_dr8 < mcut)[0]$/;"	v
+slist	central_correction.py	/^    slist = np.where(satmag_s82 < mcut)[0]$/;"	v
+special	pext_correct.py	/^import scipy.special$/;"	i
+special	pz_utils.py	/^import scipy.special$/;"	i
+sys	abm_limits.py	/^import sys$/;"	i
+sys	get_central_mag.py	/^import sys$/;"	i
+sys	idl_tabulate.py	/^import sys$/;"	i
+sys	mag_convert.py	/^import sys$/;"	i
+sys	pext_correct.py	/^import sys$/;"	i
+sys	pz_utils.py	/^import sys$/;"	i
+sys	redm_bigcount.py	/^import sys$/;"	i
+sys	redm_bright_sat.py	/^import sys$/;"	i
+sys	redm_clf.py	/^import sys$/;"	i
+sys	redm_full.py	/^import sys$/;"	i
+sys	redm_mgap.py	/^import sys$/;"	i
+sys	redm_nlambda_calc.py	/^import sys$/;"	i
+sys	redm_nz_calc.py	/^import sys$/;"	i
+sys	redm_pbcg.py	/^import sys$/;"	i
+sys	redm_rpr.py	/^import sys$/;"	i
+sys	set_zred.py	/^import sys$/;"	i
+time	redm_clf.py	/^import time$/;"	i
+time	redm_rpr.py	/^import time$/;"	i
+use_id_cent	redm_full.py	/^            use_id_cent = True$/;"	v
+use_id_cent	redm_full.py	/^    use_id_cent = False$/;"	v
+use_limmag	redm_full.py	/^            use_limmag = True$/;"	v
+use_limmag	redm_full.py	/^    use_limmag = False$/;"	v
+use_lum	redm_full.py	/^                                                           use_lum=int(params['use_lum']),$/;"	v
+use_lum	redm_full.py	/^                                                    use_lum=int(params['use_lum']),obs_clf=int(params['obs_clf']))$/;"	v
+use_lum	redm_full.py	/^                            use_lum=bool(int(params['use_lum'])),$/;"	v
+use_obs	redm_full.py	/^                            use_obs=bool(int(params['obs_clf'])),$/;"	v
+weight	redm_full.py	/^    weight = np.zeros(len(cat))$/;"	v
+weight_cen	redm_full.py	/^                                                           weight_cen=int(params['weight_cen']),$/;"	v
+weight_cen	redm_full.py	/^                            weight_cen=bool(int(params['weight_cen'])) )$/;"	v
+weight_cen	redm_full.py	/^                           weight_cen=int(params['weight_cen']),$/;"	v
+zmax	redm_full.py	/^    zmax = np.array(params['zmax'])$/;"	v
+zmax	redm_full.py	/^    zmax = zmax.astype(float)$/;"	v
+zmin	redm_full.py	/^    zmin = np.array(params['zmin'])$/;"	v
+zmin	redm_full.py	/^    zmin = zmin.astype(float)$/;"	v

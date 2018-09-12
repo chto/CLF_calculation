@@ -1,0 +1,103 @@
+kinit: KDC can't fulfill requested option while renewing credentials
+WARNING:  Default abs_solar is for SDSS i-band at z=0.3
+WARNING:  Default is NOT to use central mag correction
+          use_dr8_cen_corr = 0
+WARNING: Default is to not use lambda errors
+WARNING:  Default nz_descale (0)
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+406740  clusters read in
+0.599985
+Reading members file...
+23029243  galaxies read in
+23029243  galaxies kcorrected
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  330.686
+/nfs/slac/kipac/fs1/u/chto100/redmapper_clf/redmapper/pext_correct.py:55: RuntimeWarning: divide by zero encountered in log
+  lnchi2 = np.log(chi2)
+Done setting up bootstrap samples
+[[ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]] [[  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]] [ 0.1   0.15  0.2   0.25  0.3 ] [ 0.15  0.2   0.25  0.3   0.33]
+Calculating CLF...
+WARNING:  Some clusters have P>1, correcting
+/nfs/slac/kipac/fs1/u/chto100/redmapper_clf/redmapper/pz_utils.py:71: RuntimeWarning: invalid value encountered in greater
+  alist = np.where(lambda_err>0)[0]
+WARNING:  Some clusters have P>1, correcting
+/nfs/slac/kipac/fs1/u/chto100/redmapper_clf/redmapper/redm_clf.py:329: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+Beginning CLF covariance calculations...
+running on bootlist: 0
+running on bootlist: 1
+running on bootlist: 2
+running on bootlist: 3
+running on bootlist: 4
+running on bootlist: 5
+running on bootlist: 6
+running on bootlist: 7
+running on bootlist: 8
+running on bootlist: 9
+running on bootlist: 10
+running on bootlist: 11
+running on bootlist: 12
+running on bootlist: 13
+running on bootlist: 14
+running on bootlist: 15
+running on bootlist: 16
+running on bootlist: 17
+running on bootlist: 18
+running on bootlist: 19
+running on bootlist: 20
+User defined signal 2
+
+------------------------------------------------------------
+Sender: LSF System <lsf@hequ0100>
+Subject: Job 280394: <runCLF> in cluster <slac> Exited
+
+Job <runCLF> was submitted from host <ki-ls09> by user <chto100> in cluster <slac>.
+Job was executed on host(s) <hequ0100>, in queue <long>, as user <chto100> in cluster <slac>.
+</u/ki/chto100> was used as the home directory.
+</nfs/slac/kipac/fs1/u/chto100/redmapper_clf/redmapper> was used as the working directory.
+Started at Sat Jan 21 02:12:04 2017
+Results reported on Sun Jan 22 03:24:23 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+###!/bin/bash
+#BSUB -q long
+#BSUB -W 24:00
+#BSUB -J runCLF
+#BSUB -oo batch_redm_full_new.out
+python redm_full.py param_dr8.dat
+
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   81146.00 sec.
+    Max Memory :                                 20541 MB
+    Average Memory :                             15973.42 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   29258 MB
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   86406 sec.
+    Turnaround time :                            90740 sec.
+
+The output (if any) is above this job summary.
+
